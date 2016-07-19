@@ -24,13 +24,14 @@
 
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
           {% include icon-links.html %}
+          <a href="mailto:{{ site.resume_contact_email }}" class="contact-link" itemprop="email">{{ site.resume_contact_email }}</a>
         </div>
 
         <div class="executive-summary" itemprop="description">
           <ol>
             <li>Senior Software Engineer with Full Stack Javascript experience in both Backend and Frontend.</li>
             <li>Architect and Team Lead of BI product Rocket Discover.</li>
-            <li>Massive experience cross NoSQL, NodeJS, ReactJs/AngularJs, HTML/CSS, Data Visilization and Cloud Deployment.</li>
+            <li>Massive experience across NoSQL, NodeJS, ReactJS/AngularJS, HTML/CSS, Data Visilization and Cloud Deployment.</li>
             <li>Creator of Hello Sleep community, website and application.</li>
           </ol>
         </div>
@@ -56,19 +57,19 @@
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">Rocket Software</h3>
           <h4 class="resume-item-details" itemprop="description">Senior Software Engineer &bull; Feb, 2008 &mdash; Present</h4>
-          <p class="resume-item-copy">The architect and team lead of Rocket Discover product, which is a data analystic and data visilization web application built upon HTML/CSS and Javascript. The work cross Frontend to backend:</p>
+          <p class="resume-item-copy">The architect and team lead of Rocket Discover product, which is a web application of data analystic and data visilization built upon HTML/CSS and Javascript. The work cross frontend to backend:</p>
           <ul class="resume-item-list">
             <li>Designed and implemented web service to handle RESTful API, authentication and data connectivity.</li>
-            <li>Built license service for license registration of product.</li>
-            <li>Handled NoSQL database(Redis and Mongodb) schema, connection and query.</li>
+            <li>Built license service for license generation and registration of product.</li>
+            <li>Handled NoSQL database(Redis and Mongodb) schema, connection and migration.</li>
             <li>Was responsible for cloud deployment and on-premise installation.</li>
             <li>Built GraphQL server for mobile version.</li>
             <li>Designed and implemented charting library to visilize data.</li>
-            <li>Collaborated team among different working areas across different countries.</li>
-            <li>Source repositories administrator(Using Git).</li>
-            <li>Docker container management.</li>
+            <li>Collaborated team members among different working areas across different countries.</li>
+            <li>Administrated Source repositories (Using Git).</li>
+            <li>Generated and managed Docker containers for Linux deployment.</li>
           </ul>
-          <p class="resume-item-copy">The team lead of Corbusiness product, which is a BI tool for data analystic by visilization and reporting. The programming languages are mainly C++ and Javascript </p>
+          <p class="resume-item-copy">The team lead of Corbusiness product, which is a BI tool for data visilization and reporting. The programming languages are mainly C++ and Javascript.</p>
           <ul class="resume-item-list">
             <li>Maintained and enhanced both desktop version and web view.</li>
             <li>Designed and implemented new charting library based on HTML5 Canvas.</li>
@@ -76,9 +77,9 @@
           </ul>
           <p class="resume-item-copy">Three-time Rocket Build winner.</p>
           <ul class="resume-item-list">
-            <li>Won the first award by building MSI mobile product.</li>
-            <li>Won the second award by connecting Rocket Discover and IBM connections.</li>
-            <li>Won the first award by implement schedule and alert of Rocket Discover.</li>
+            <li>Won the first-class award by building MSI mobile product.</li>
+            <li>Won the second-class award by connecting Rocket Discover and IBM connections.</li>
+            <li>Won the first-class award by implement schedule and alert of Rocket Discover.</li>
           </ul>
 
         </div><!-- end of resume-item -->
@@ -90,10 +91,9 @@
           <p class="resume-item-copy">Create the community to help people suffering from insomnia. Are responsible for the content management and the web resources infrastructure.</p>
           <ul class="resume-item-list">
             <li>Managed user forum by accessing different cases.</li>
-            <li>Built the website to host community content with Nodejs, Semantic UI and ReactJs.</li>
-            <li>Built the evaluation application with MeteorJs.</li>
+            <li>Built the website to host community content with NodeJS, Semantic UI and ReactJS.</li>
+            <li>Built the evaluation application with MeteorJS.</li>
             <li>Designed and prototyped mobile application.</li>
-            <li>Managed website host.</li>
           </ul>
 
         </div><!-- end of resume-item -->
@@ -112,8 +112,14 @@
 
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">Dalian University of Technology</h3>
-          <h4 class="resume-item-details" itemprop="description">Master Degree, Dalian University of Technology &bull; 2004 &mdash; 2006</h4>
+          <h4 class="resume-item-details" itemprop="description">Master Degree, Communication and Information System &bull; 2004 &mdash; 2006</h4>
           <p class="resume-item-copy">The manager of a critivity group which to learn electronic knowledge and create innovative products.</p>
+        </div>
+
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">Dalian University of Technology</h3>
+          <h4 class="resume-item-details" itemprop="description">Bacholar Degree, Electronic Information Engineering &bull; 2004 &mdash; 2006</h4>
+          <p class="resume-item-copy">Won ‘Sony Cup’ second-class award in contry level as team lead.</p>
         </div>
 
       </section>
