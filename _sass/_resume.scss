@@ -169,6 +169,10 @@
   .resume-item-copy { margin: .75rem 0 0; }
 }
 
+.print-display {
+  display: none;
+}
+
 // footer styles
 
 .page-footer {
@@ -200,5 +204,15 @@
 
   .contact-link {
     display: block;
+  }
+
+  span.print-display {
+    display: inline;
+  }
+
+  .resume-item-list {
+    li > a {
+      border-bottom: none;
+    }
   }
 }
