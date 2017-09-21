@@ -1,6 +1,6 @@
 # Site settings
-title: "Ming Li's Resume"
-description: "Ming Li's Resume"
+title: "Miaomiao Gao's Resume"
+description: "Miaomiao Gao's Resume"
 
 # Build settings
 markdown: kramdown
@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Maggie Gao"
+resume_name:                    "Miaomiao Gao"
 resume_title:                   "FPGA Engineer"
 resume_contact_email:
   "gmm.maggie@gmail.com"
